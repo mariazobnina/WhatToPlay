@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* это в index.js */
+#root {
+  /* background-image: url(./50.jpg); */
+  /* background-image: url(modern-futuristic-sci-fi-background.jpg); */
+  display: flex;
+  justify-content: center;  
+}
+
+.App {
+  margin-top: 40px;
+  width: 800px;
+}
+
+.post {
+  display: flex;
+  padding: 15px;
+  border: 2px solid teal;
+  margin-top: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gameItem {
+  padding: 15px;
+  border: 2px solid rgb(117, 4, 93);
+  margin-top: 15px;
+  background-color: rgb(105, 73, 92);
+  position: relative;
+  z-index: 10;
+}
+
+.someText {
+  color: rgb(209, 202, 202);
+}
+
+.imgBg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.wow {
+  margin-top: 10px;
+  position: relative;
+}
